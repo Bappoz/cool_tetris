@@ -1,11 +1,11 @@
-# 🎮 Tetris Game
+# Tetris Game
 
 Um jogo completo de Tetris implementado em Rust com **duas versões**:
 
-- 🖥️ **Terminal Version** - Roda em qualquer terminal (padrão, sem dependências)
-- 🎨 **SDL2 Version** - Interface gráfica avançada (requer SDL2)
+-  **Terminal Version** - Roda em qualquer terminal (padrão, sem dependências)
+-  **SDL2 Version** - Interface gráfica avançada (requer SDL2)
 
-## ✨ Características
+## Características
 
 - ✅ Todas as 7 peças clássicas (I, O, T, S, Z, J, L)
 - ✅ Rotação de peças
@@ -15,7 +15,7 @@ Um jogo completo de Tetris implementado em Rust com **duas versões**:
 - ✅ Game Over e Restart
 - ✅ Cores vibrantes (emojis no terminal, gráficos no SDL2)
 
-## 🎯 Sistema de Pontuação
+##  Sistema de Pontuação
 
 - **1 linha**: 100 pontos
 - **2 linhas**: 300 pontos  
@@ -24,7 +24,7 @@ Um jogo completo de Tetris implementado em Rust com **duas versões**:
 
 ---
 
-## 🚀 Como Rodar
+## Como Rodar
 
 ### ⚡ Opção 1: Versão Terminal (Recomendado)
 
@@ -59,13 +59,13 @@ cargo run --release --bin tetris
 
 ---
 
-### 🎨 Opção 2: Versão SDL2 (Interface Gráfica)
+### Opção 2: Versão SDL2 (Interface Gráfica)
 
 Esta versão oferece:
-- ✨ Gráficos suaves e coloridos
-- 🎮 Controles em tempo real (sem pressionar Enter)
-- 📊 Interface visual moderna
-- ⚡ 60 FPS
+-  Gráficos suaves e coloridos
+-  Controles em tempo real (sem pressionar Enter)
+-  Interface visual moderna
+-  60 FPS
 
 #### Pré-requisitos:
 
