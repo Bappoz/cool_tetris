@@ -1,1 +1,2 @@
-pub mod interface;
+pub mod tetris;
+pub mod ui;

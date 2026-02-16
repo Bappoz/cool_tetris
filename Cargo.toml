@@ -1,9 +1,17 @@
 [package]
 name = "tetris"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
-cgmath = "0.18.0"
-rand = "0.10.0"
-sdl2 = "0.38.0"
+rand = "0.8.5"
+sdl2 = "0.37"
+
+[profile.release]
+opt-level = 3
+lto = true
+
+[[bin]]
+name = "tetris"
+path = "src/main.rs"
+
